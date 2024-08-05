@@ -70,19 +70,20 @@ function Header(props) {
                     }} >  <img  class="profile-img " src="https://media.istockphoto.com/id/1451587807/vector/user-profile-icon-vector-avatar-or-person-icon-profile-picture-portrait-symbol-vector.jpg?s=612x612&w=0&k=20&c=yDJ4ITX1cHMh25Lt1vI1zBn2cAKKAlByHBvPJ8gEiIg=" alt=""/> </div>
 
                 {showOver && <div style={{
-                    minHeight: '10px',
-                    width: '200px',
+                    minHeight: '50px',
+                    width: '150px',
                     background: '#eee',
                     position: 'absolute',
-                    top: '0',
+                    top: '10',
                     right: '0',
                     zIndex: 1,
-                    marginTop: '50px',
-                    marginRight: '50px',
+                    marginTop: '0px',
+                    marginRight: '10px',
                     color: 'red',
                     fontSize: '14px',
                     background: '#002f34',
-                    borderRadius: '7px'
+                    borderRadius: '7px',
+                    textAlign:'center'
                 }}>
                     <div>
                         {!!localStorage.getItem('token') &&
@@ -104,7 +105,7 @@ function Header(props) {
                     </div>
                     <div>
                         {!localStorage.getItem('token') ?
-                            <Link to="/login">  LOGIN </Link> :
+                            <Link to="/login" className="login-link">LOGIN</Link>:
                             <button className='logout-btn' onClick={handleLogout}> LOGOUT </button>}
                     </div>
 

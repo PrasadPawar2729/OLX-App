@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Categories from "./Categories";
 import { FaHeart } from "react-icons/fa";
-import './Home.css'; // Import the external CSS file
+import './Home.css'; 
 import API_URL from "../constants";
 
 

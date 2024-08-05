@@ -4,7 +4,7 @@
     padding: 10px 20px;
     background-color: #002f3408;
     border-bottom: 3px solid #fff;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 4px 0 rgba(238, 9, 9, 0.1);
 }
 
 .cat-container {
@@ -61,7 +61,7 @@
     width: 40px;
     border-radius: 50%; /* Makes the image round */
     border: 2px solid #ccc; /* Adds a border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+    box-shadow: 0 0 10px rgba(214, 51, 51, 0.1); /* Adds a shadow effect */
 }
 
 .cat-container {
@@ -100,3 +100,14 @@
     background-color: #007bff;
     color: #fff;
 }
+.login-link {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    padding: 8px 16px; /* Add padding for better click area */
+    border-radius: 4px; /* Rounded corners */
+   
+}
+
+
