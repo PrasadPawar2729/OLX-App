@@ -1,0 +1,116 @@
+.icons {
+    font-size: 32px;
+    height: 22px;
+    width: 22px;
+    color: #b2b0b0;
+    cursor: pointer;
+}
+
+.icons:hover {
+    color: red;
+}
+
+.icon-con {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #fff;
+    margin: 7px;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 24px;
+    color: #002f34;
+    font-weight: bold;
+}
+
+.price-text {
+    color: #002f34;
+
+}
+
+.clear-btn {
+    height: 24px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    padding: 0px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.product-container {
+    padding: 2rem;
+}
+
+/* Card styling */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Status label */
+.status-label {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    color: white;
+}
+
+.sold {
+    background-color: #dc3545; /* Red for sold */
+}
+
+.unsold {
+    background-color: #28a745; /* Green for unsold */
+}
+
+/* Heart icon styling */
+.icon-con {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* .icons {
+    color: red;
+    font-size: 1.5rem;
+} */
+
+/* Clear button styling */
+.clear-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+/* Price and description styling */
+.price-text {
+    color: #dc3545;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.m-2 {
+    margin: 0.5rem;
+}
